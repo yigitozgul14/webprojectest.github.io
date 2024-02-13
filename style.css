@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    line-height: 2;
+}
+html {
+    scroll-padding-top: 7rem; /* Replace with your fixed navbar height */
+}
+
+.navbar-toggler{
+   color: #89856B;
+   border: none;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+    outline: none;  
+}
+.nav-link{
+    color: #89856B;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.navbar{
+    height: 6rem;
+    background-color: white;
+}
+.navbar-brand{
+    color: #89856B;
+    font-weight: 500;
+    font-size: 30px;
+   
+}
+.navbar-brand img{
+    max-width: 250px;
+    
+}
+#top-container{
+    background-color: black;
+}
+#header-main{
+    height: 4rem;
+}
+
+#anasayfa{
+    height: 80vh;
+    background-image: url("images/mainbanner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    box-shadow: 0 4px 2px -2px gray;
+} 
+
+#black{
+    height: 80vh;
+    background-color: black;
+    opacity: 0.5;
+}
+#banner-logo{
+    position: absolute;
+    top: 45%;
+    left: 32%;
+    color: white;
+}
+#banner-logo h1{
+    font-size: 60px;
+}
+
+@media (max-width: 768px){
+    #banner-logo{
+        left: 5%;
+        max-width: 90%;
+    }
+}
+
+
+#hakkımızda{
+    margin-top: 5rem;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    
+}
+
+.baslik{
+    height: 45px;
+}
+#hizmetler{
+    margin-top: 9rem;
+}
+.cards{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.service-box{
+    padding: 20px;
+    background-color: #fff;
+    transition: .4s;
+    transform: translateY(0);
+    cursor: pointer;
+}
+.service-content h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: black;
+}
+.service-box:hover{
+    box-shadow: 0 0 30px #eee;
+    transform: translateY(-.5rem);
+    border-bottom: 5px solid #EF5B2A;
+    border-radius: 10px;
+    
+}
+.cards i{
+    font-size: 30px;
+    color: #4D4D4D;
+}
+.cards h3{
+    color: #4D4D4D;
+}
+#cv{
+    margin-top: 5rem;
+}
+.cv-resim{
+    height: 100%;
+    width: 100%;
+}
+#bizeulasin{
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+@media (max-width:1200px){
+    #bizeulasin{
+        margin-bottom: 40rem;
+    }
+}
+.contact-info{
+    font-size: 20px;
+    color:#4D4D4D;
+}
